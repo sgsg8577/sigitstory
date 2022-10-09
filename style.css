@@ -1,0 +1,56 @@
+body{
+font-family: 'Lobster Two', cursive;
+  
+  }
+   li a:hover{
+  background:#f1b814;
+  text-align:center;
+  font-size:15pt;
+ letter-spacing:2px;
+
+  } 
+.jumbotron{
+padding-top:2rem;
+background-color:#dc3545;
+}
+
+#gallery{
+background-color:#dc3545;
+}
+
+.card{
+box-shadow: 0 5px 10px rgba(0,0,0,0.10), 0 7px 5px rgba(0,0,0,0.10);
+ 
+}
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background-color: #dc3545;
+  opacity: 0;
+  border-radius: 50%;
+  transition: .2s ease-in-out;
+  z-index: 20px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Untuk memunculkan tombol */
+.back-to-top.show {
+  bottom: 20px;
+  opacity: 1;
+}
+
+.back-to-top svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
